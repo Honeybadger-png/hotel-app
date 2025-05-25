@@ -12,6 +12,9 @@ import { AppRoutingModule } from '../app-routing.module';
   imports: [
     CommonModule,
     AppRoutingModule
+  ],
+  exports: [
+    HomeComponent
   ]
 })
 export class HomeModule { }
