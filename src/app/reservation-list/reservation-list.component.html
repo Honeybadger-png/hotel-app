@@ -31,8 +31,11 @@
             </tbody>
         </table>
     </div>
-
+    <ul *ngIf="reservations.length; else noReservation">        
+    </ul>
     <ng-template #noReservation>
         <p>No Reservation Available</p>
     </ng-template>
+
+
 </div>
